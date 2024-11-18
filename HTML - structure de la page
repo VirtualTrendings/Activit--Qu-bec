@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Top 10 des activités à faire au Québec">
+    <title>Top 10 des Activités au Québec</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Top 10 des Activités à Faire au Québec</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Découvrez les meilleures activités à faire dans la Belle Province !</h2>
+            <p>Que vous soyez amateur de nature, d'histoire ou de culture, le Québec a quelque chose à offrir pour tous les goûts.</p>
+        </section>
+
+        <section class="activities">
+            <h2>Les 10 meilleures activités au Québec</h2>
+            <div class="activity-list">
+                <!-- Activité 1 -->
+                <div class="activity-item">
+                    <img src="images/vieux-quebec.jpg" alt="Vieux-Québec">
+                    <h3>1. Visiter le Vieux-Québec</h3>
+                    <p>Promenez-vous dans les rues pittoresques du Vieux-Québec, un site classé au patrimoine mondial de l'UNESCO.</p>
+                    <a href="https://www.quebec-cite.com/fr" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 2 -->
+                <div class="activity-item">
+                    <img src="images/mont-tremblant.jpg" alt="Mont-Tremblant">
+                    <h3>2. Faire du ski à Mont-Tremblant</h3>
+                    <p>Une des stations de ski les plus populaires du Québec, parfaite pour les amateurs de sports d'hiver.</p>
+                    <a href="https://www.tremblant.ca/" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 3 -->
+                <div class="activity-item">
+                    <img src="images/montreal.jpg" alt="Montréal">
+                    <h3>3. Explorer Montréal</h3>
+                    <p>Découvrez la ville cosmopolite de Montréal, célèbre pour ses festivals, sa cuisine et son ambiance vibrante.</p>
+                    <a href="https://www.mtl.org/fr" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 4 -->
+                <div class="activity-item">
+                    <img src="images/chutes-montmorency.jpg" alt="Chutes Montmorency">
+                    <h3>4. Admirer les chutes Montmorency</h3>
+                    <p>Une magnifique chute d'eau située près de Québec, plus haute que les chutes du Niagara !</p>
+                    <a href="https://www.sepaq.com/pq/mot/accueil.html" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 5 -->
+                <div class="activity-item">
+                    <img src="images/forillon.jpg" alt="Parc Forillon">
+                    <h3>5. Randonnée au parc national Forillon</h3>
+                    <p>Un parc offrant une vue imprenable sur la mer, idéal pour la randonnée, l'observation de la faune et le camping.</p>
+                    <a href="https://www.pc.gc.ca/fr/pn-np/qc/forillon" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 6 -->
+                <div class="activity-item">
+                    <img src="images/baleines.jpg" alt="Observation des baleines">
+                    <h3>6. Observation des baleines à Tadoussac</h3>
+                    <p>Tadoussac est l'un des meilleurs endroits pour observer les baleines et autres mammifères marins au Québec.</p>
+                    <a href="https://www.baleines.qc.ca/" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 7 -->
+                <div class="activity-item">
+                    <img src="images/circuit-saint-jean.jpg" alt="Circuit Saint-Jean">
+                    <h3>7. Faire du vélo sur le circuit des plages à Saint-Jean-sur-Richelieu</h3>
+                    <p>Un magnifique circuit pour les amateurs de vélo, avec des paysages incroyables au bord de l'eau.</p>
+                    <a href="https://www.saintjean.qc.ca/" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 8 -->
+                <div class="activity-item">
+                    <img src="images/icehotel.jpg" alt="Hôtel de Glace">
+                    <h3>8. Séjourner à l'Hôtel de Glace</h3>
+                    <p>Venez passer une nuit dans un hôtel construit entièrement en glace et en neige ! Une expérience unique.</p>
+                    <a href="https://www.hoteldeglace-canada.com/" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 9 -->
+                <div class="activity-item">
+                    <img src="images/parc-omega.jpg" alt="Parc Omega">
+                    <h3>9. Découvrir la faune au Parc Omega</h3>
+                    <p>Un parc d'animaux où vous pouvez voir des espèces locales dans leur habitat naturel.</p>
+                    <a href="https://www.parc-omega.com/" target="_blank">En savoir plus</a>
+                </div>
+
+                <!-- Activité 10 -->
+                <div class="activity-item">
+                    <img src="images/la-mauricie.jpg" alt="Parc de la Mauricie">
+                    <h3>10. Explorer le Parc National de la Mauricie</h3>
+                    <p>Un lieu parfait pour la randonnée, le kayak et l'observation des paysages magnifiques de la nature québécoise.</p>
+                    <a href="https://www.sepaq.com/pq/mau/accueil.html" target="_blank">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Activités au Québec. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
